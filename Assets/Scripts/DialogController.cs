@@ -21,8 +21,6 @@ public class DialogController : MonoBehaviour {
     [SerializeField]
     DialogChoice dialogChoice3Instance;
 
-    DialogText lastDialog;
-
     // Use this for initialization
     void Start () {
         dialog.SetTree("Test1");
@@ -57,6 +55,7 @@ public class DialogController : MonoBehaviour {
             dialogChoice2Instance.Display();
             dialogChoice3Instance.Display();
             DialogText dt = Instantiate(dialogTextPrefab, chatWindow);
+
             dt.Display(dialog.GetCurrentDialogue());
             StartCoroutine(WaitForNextNode(1));
         }
