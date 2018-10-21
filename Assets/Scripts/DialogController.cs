@@ -124,7 +124,7 @@ public class DialogController : MonoBehaviour {
     // Makes a selection
     public void MakeChoice(int selection)
     {
-        TextForSpeaker(dialog.GetCurrentDialogue());
+        dialog.NextChoice(dialog.GetChoices()[selection]);
         Display();
     }
 
