@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: c2da2dd8bf658934aacb80f9c84db77b
+guid: deeed2bd6964f93429fd6af25415a5fd
 TextureImporter:
   fileIDToRecycleName:
-    21300000: UI_Frame_Contacts_0
-    21300002: UI_Frame_Contacts_1
+    21300000: UI_Frame_Chat_BitsAndBobs_0
+    21300002: UI_Frame_Chat_BitsAndBobs_1
+    21300004: UI_Frame_Chat_BitsAndBobs_2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -86,21 +87,61 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Frame_Contacts_0
+      name: UI_Frame_Chat_BitsAndBobs_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 69
-        width: 1200
-        height: 1970
+        x: 0
+        y: 339
+        width: 1981
+        height: 543
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dab08e381a66ce4ba2b933d221a424f
+      spriteID: 5e50d5f22688a4d4d91b59b0a8c14698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Frame_Chat_BitsAndBobs_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1307
+        width: 55
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651038040f6af4b44a07c810f42b9de6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Frame_Chat_BitsAndBobs_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1968
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d6a5af2264e1044abd43c9268b0241
       vertices: []
       indices: 
       edges: []
@@ -108,7 +149,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d984da69644bb0f4980aea36f88e74bc
+    spriteID: 981cbd8760f4e70418dc8eff1b8cea7a
     vertices: []
     indices: 
     edges: []
