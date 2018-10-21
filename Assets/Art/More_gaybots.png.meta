@@ -1,19 +1,14 @@
 fileFormatVersion: 2
-guid: d5eafb6db9d690a45aa066a30249f795
+guid: 591107f46632d8b4682bcd48123735bb
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Red OS Logo
-    21300002: Blue OS Logo
-    21300004: Red Contact Panel
-    21300006: Blue Contact Panel
-    21300008: Red Dialogue Box
-    21300010: Blue Dialogue Box
-    21300012: Red Typing
-    21300014: Blue Typing
-    21300016: Text Choice
-    21300018: Text Choice Grayed out
-    21300020: Scroll Space
-    21300022: Scroller icon
+    21300000: B-Bot 4
+    21300002: B-Bot 5
+    21300004: B-Bot 6
+    21300006: B-Bot 4 Profile
+    21300008: B-Bot 5 Profile
+    21300010: B-Bot 6 Profile
+    21300012: More_gaybots_0
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -94,13 +89,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Red Contact Panel
+      name: B-Bot 4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1664
-        width: 704
-        height: 192
+        x: 584
+        y: 1592
+        width: 614
+        height: 890
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -108,19 +103,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffbdb13f71be3044fbbc36a207168c0e
+      spriteID: ca45413e288749f4f929e13766ff8e6a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Contact Panel
+      name: B-Bot 5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1408
-        width: 704
-        height: 192
+        x: 1320
+        y: 1577
+        width: 614
+        height: 890
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,19 +123,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1347284bca301b4fb153a96452cb8a3
+      spriteID: 115a856eb096edd4b9316d3695df1288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Red Typing
+      name: B-Bot 6
       rect:
         serializedVersion: 2
-        x: 896
-        y: 1100
-        width: 193
-        height: 181
+        x: 2014
+        y: 1585
+        width: 614
+        height: 890
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 355c557f65e02324198b9a98c079a1a8
+      spriteID: f10cf8539857e6d43ac06a2d97c63c0f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Typing
+      name: B-Bot 4 Profile
       rect:
         serializedVersion: 2
-        x: 892
-        y: 834
-        width: 200
-        height: 192
+        x: 648
+        y: 1994
+        width: 490
+        height: 490
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,19 +163,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ced3249b0e04e8e428b3391adbf697b1
+      spriteID: 403c9e21c33d45f43b7dd2f45a16b77f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Text Choice
+      name: B-Bot 5 Profile
       rect:
         serializedVersion: 2
-        x: 1279
-        y: 1023
-        width: 706
-        height: 66
+        x: 1376
+        y: 1991
+        width: 490
+        height: 490
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,19 +183,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76313a17d00d10a4cb6e128d2926fa7a
+      spriteID: 02deb39f842a9a9478c37f66a362f63b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Text Choice Grayed out
+      name: B-Bot 6 Profile
       rect:
         serializedVersion: 2
-        x: 1279
-        y: 895
-        width: 706
-        height: 66
+        x: 2063
+        y: 2001
+        width: 490
+        height: 490
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,47 +203,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2317fabc97afe6d4cb0ad3b86e66690f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scroll Space
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 1280
-        width: 64
-        height: 704
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 097b601f24bc2e440beb2fa0eeb1bd89
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scroller icon
-      rect:
-        serializedVersion: 2
-        x: 1794
-        y: 1285
-        width: 59
-        height: 111
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b102589b1cc567443b4c878ecdea623b
+      spriteID: cd223724177092044a49e705eacb43b1
       vertices: []
       indices: 
       edges: []
@@ -256,7 +211,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 79bd4c2c64caa694ca4907b74974f046
+    spriteID: 033b4736115e6c94d99e63d4787b370b
     vertices: []
     indices: 
     edges: []
