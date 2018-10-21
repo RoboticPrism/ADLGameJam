@@ -33,7 +33,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1559376224009690}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -49,8 +49,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b10fe5d6867c1b5449b4bf163fcd72ec, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Set:
   - CurrentId: 19
     NewWindowOpen: 0
@@ -68,43 +68,43 @@ MonoBehaviour:
       NodeType: 0
       Parent: -1
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0100000002000000
     - ID: 1
       Size:
         serializedVersion: 2
-        x: 16
-        y: 192
+        x: 260
+        y: 223
         width: 150
         height: 125
-      Text: Nothing much, been backing up my data all day. Hbu?
+      Text: '[me]Nothing much, been backing up my data all day. Hbu?'
       Type: 2
       NodeType: 1
       Parent: 0
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 03000000
     - ID: 2
       Size:
         serializedVersion: 2
-        x: 192
-        y: 190
+        x: 241
+        y: 57
         width: 150
         height: 125
-      Text: 'I''ve just been charging for the past few hours.
+      Text: '[me]I''ve just been charging for the past few hours.
 
         What are you up to?'
       Type: 2
       NodeType: 1
       Parent: 0
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 03000000
     - ID: 3
       Size:
         serializedVersion: 2
-        x: 17
-        y: 330
+        x: 433
+        y: 49
         width: 150
         height: 125
       Text: 'Sounds pretty boring, sorry about that haha.
@@ -114,41 +114,41 @@ MonoBehaviour:
       NodeType: 1
       Parent: 1
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0400000005000000
     - ID: 4
       Size:
         serializedVersion: 2
-        x: 17
-        y: 477
+        x: 614
+        y: 246
         width: 150
         height: 125
-      Text: Cool, what kind of music?
+      Text: '[me]Cool, what kind of music?'
       Type: 2
       NodeType: 1
       Parent: 3
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 06000000
     - ID: 5
       Size:
         serializedVersion: 2
-        x: 193
-        y: 337
+        x: 623
+        y: 58
         width: 150
         height: 125
-      Text: Please tell me it's not country
+      Text: '[me]Please tell me it''s not country'
       Type: 2
       NodeType: 1
       Parent: 3
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 06000000
     - ID: 6
       Size:
         serializedVersion: 2
-        x: 190
-        y: 479
+        x: 844
+        y: 86
         width: 150
         height: 125
       Text: It's classical piano solos. They help me relax and destress
@@ -156,44 +156,45 @@ MonoBehaviour:
       NodeType: 1
       Parent: 5
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0700000008000000
     - ID: 7
       Size:
         serializedVersion: 2
-        x: 382
-        y: 480
+        x: 1049
+        y: 253
         width: 150
         height: 125
-      Text: Speaking of being stressed, I'm so worried that I won't find someone to
-        merge with in such a short period of time. Who are you planning to merge with?
+      Text: '[me]Speaking of being stressed, I''m so worried that I won''t find someone
+        to merge with in such a short period of time. Who are you planning to merge
+        with?'
       Type: 2
       NodeType: 1
       Parent: 6
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 09000000
     - ID: 8
       Size:
         serializedVersion: 2
-        x: 382
-        y: 341
+        x: 1058
+        y: 74
         width: 150
         height: 125
-      Text: 'I could use some relaxing music rn, I''m so stressed about merging.
+      Text: '[me]I could use some relaxing music rn, I''m so stressed about merging.
 
         Who are you merging with?'
       Type: 2
       NodeType: 1
       Parent: 6
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 09000000
     - ID: 9
       Size:
         serializedVersion: 2
-        x: 567
-        y: 482
+        x: 1274
+        y: 62
         width: 150
         height: 125
       Text: No one
@@ -201,41 +202,43 @@ MonoBehaviour:
       NodeType: 1
       Parent: 7
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0a0000000b000000
     - ID: 10
       Size:
         serializedVersion: 2
-        x: 566
-        y: 338
+        x: 1478
+        y: 62
         width: 150
         height: 125
-      Text: I'm sure there's somebody out there for you, don't sell yourself short!
+      Text: '[me]I''m sure there''s somebody out there for you, don''t sell yourself
+        short!'
       Type: 2
       NodeType: 1
       Parent: 9
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0c000000
     - ID: 11
       Size:
         serializedVersion: 2
-        x: 739
-        y: 482
+        x: 1478
+        y: 265
         width: 150
         height: 125
-      Text: If you want I can ask my friends if any of them want to merge with you
+      Text: '[me]If you want I can ask my friends if any of them want to merge with
+        you'
       Type: 2
       NodeType: 1
       Parent: 9
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0c000000
     - ID: 12
       Size:
         serializedVersion: 2
-        x: 745
-        y: 336
+        x: 1662
+        y: 56
         width: 150
         height: 125
       Text: No, I'm not merging with anyone by choice
@@ -243,41 +246,41 @@ MonoBehaviour:
       NodeType: 1
       Parent: 11
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0d0000000e000000
     - ID: 13
       Size:
         serializedVersion: 2
-        x: 923
-        y: 337
+        x: 1875
+        y: 56
         width: 150
         height: 125
-      Text: Wait really?
+      Text: '[me]Wait really?'
       Type: 2
       NodeType: 1
       Parent: 12
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0f000000
     - ID: 14
       Size:
         serializedVersion: 2
-        x: 921
-        y: 483
+        x: 1869
+        y: 266
         width: 150
         height: 125
-      Text: I didn't even realize that was an option
+      Text: '[me]I didn''t even realize that was an option'
       Type: 2
       NodeType: 1
       Parent: 12
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0f000000
     - ID: 15
       Size:
         serializedVersion: 2
-        x: 1101
-        y: 482
+        x: 2073
+        y: 108
         width: 150
         height: 125
       Text: Yea, I just don't wanna merge with anyone. I've never been interested
@@ -286,52 +289,52 @@ MonoBehaviour:
       NodeType: 1
       Parent: 14
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 1000000011000000
     - ID: 16
       Size:
         serializedVersion: 2
-        x: 1280
-        y: 482
+        x: 2245
+        y: 184
         width: 150
         height: 125
-      Text: Don't you want to reach the singularity?
+      Text: '[me]Don''t you want to reach the singularity?'
       Type: 2
       NodeType: 1
       Parent: 15
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 12000000
     - ID: 17
       Size:
         serializedVersion: 2
-        x: 1109
-        y: 334
+        x: 2250
+        y: 2
         width: 150
         height: 125
-      Text: But what's going to happen if you don't merge with anyobody?
+      Text: '[me]But what''s going to happen if you don''t merge with anyobody?'
       Type: 2
       NodeType: 1
       Parent: 15
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 12000000
     - ID: 18
       Size:
         serializedVersion: 2
-        x: 1285
-        y: 336
+        x: 2429
+        y: 105
         width: 150
         height: 125
       Text: I'll be fine, I don't really care if I reach the singularity. It doesn't
         feel right for me to merge. I'm happy with who I am right now, and merging
         could change that.
-      Type: 1
-      NodeType: 1
+      Type: 0
+      NodeType: 2
       Parent: 17
       Trigger: 0
-      TriggerText:
-      Connections:
+      TriggerText: 
+      Connections: 
   CurrentSet: 0
   TabList:
   - Main

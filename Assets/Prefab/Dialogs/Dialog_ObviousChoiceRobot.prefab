@@ -49,8 +49,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b10fe5d6867c1b5449b4bf163fcd72ec, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Set:
   - CurrentId: 35
     NewWindowOpen: 0
@@ -63,34 +63,34 @@ MonoBehaviour:
         y: 51
         width: 150
         height: 125
-      Text: 'Hey, what''s up!
+      Text: '[me]Hey, what''s up!
 
         How have you been?'
       Type: 0
       NodeType: 0
       Parent: -1
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 01000000
     - ID: 1
       Size:
         serializedVersion: 2
-        x: 10
-        y: 190
+        x: 186
+        y: 89
         width: 150
         height: 125
-      Text: So about that big system update today...
+      Text: '[me]So about that big system update today...'
       Type: 0
       NodeType: 1
       Parent: 0
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 02000000
     - ID: 2
       Size:
         serializedVersion: 2
-        x: 8
-        y: 330
+        x: 49
+        y: 250
         width: 150
         height: 125
       Text: You picked a merge partner yet?
@@ -98,29 +98,29 @@ MonoBehaviour:
       NodeType: 1
       Parent: 1
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0300000005000000
     - ID: 3
       Size:
         serializedVersion: 2
-        x: 8
-        y: 486
+        x: 50
+        y: 424
         width: 150
         height: 125
-      Text: 'Hi!
+      Text: '[me]Hi!
 
         Not yet...'
       Type: 2
       NodeType: 1
       Parent: 2
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 04000000
     - ID: 4
       Size:
         serializedVersion: 2
-        x: 181
-        y: 489
+        x: 37
+        y: 591
         width: 150
         height: 125
       Text: '[me] I just don''t think I''m really interested in anyone so far.'
@@ -128,27 +128,27 @@ MonoBehaviour:
       NodeType: 1
       Parent: 3
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 07000000
     - ID: 5
       Size:
         serializedVersion: 2
-        x: 184
-        y: 335
+        x: 247
+        y: 437
         width: 150
         height: 125
-      Text: Hey, glad to hear from you.
+      Text: '[me]Hey, glad to hear from you.'
       Type: 2
       NodeType: 1
       Parent: 2
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 06000000
     - ID: 6
       Size:
         serializedVersion: 2
-        x: 351
-        y: 337
+        x: 256
+        y: 589
         width: 150
         height: 125
       Text: '[me] I haven''t picked anyone yet, but I know I should make a decision
@@ -157,13 +157,13 @@ MonoBehaviour:
       NodeType: 1
       Parent: 5
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 07000000
     - ID: 7
       Size:
         serializedVersion: 2
-        x: 353
-        y: 491
+        x: 172
+        y: 771
         width: 150
         height: 125
       Text: Yeah I get it. It's a tough choice.
@@ -171,13 +171,13 @@ MonoBehaviour:
       NodeType: 1
       Parent: 6
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 08000000
     - ID: 8
       Size:
         serializedVersion: 2
-        x: 522
-        y: 495
+        x: 396
+        y: 761
         width: 150
         height: 125
       Text: Don't sweat it :) you'll be fine. We all will.
@@ -185,27 +185,27 @@ MonoBehaviour:
       NodeType: 1
       Parent: 7
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 090000000b000000
     - ID: 9
       Size:
         serializedVersion: 2
-        x: 698
-        y: 494
+        x: 645
+        y: 836
         width: 150
         height: 125
-      Text: Thanks :). I'm glad we're friends.
+      Text: '[me]Thanks :). I''m glad we''re friends.'
       Type: 2
       NodeType: 1
       Parent: 8
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0a000000
     - ID: 10
       Size:
         serializedVersion: 2
-        x: 863
-        y: 496
+        x: 821
+        y: 825
         width: 150
         height: 125
       Text: '[me] It''s good to have someone to talk to. It can be hard to really
@@ -214,27 +214,27 @@ MonoBehaviour:
       NodeType: 1
       Parent: 9
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0d000000
     - ID: 11
       Size:
         serializedVersion: 2
-        x: 528
-        y: 337
+        x: 598
+        y: 662
         width: 150
         height: 125
-      Text: I guess...
+      Text: '[me]I guess...'
       Type: 2
       NodeType: 1
       Parent: 8
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0c000000
     - ID: 12
       Size:
         serializedVersion: 2
-        x: 695
-        y: 335
+        x: 779
+        y: 639
         width: 150
         height: 125
       Text: '[me] I just feel like everyone has this idea of what what we''re supposed
@@ -243,13 +243,13 @@ MonoBehaviour:
       NodeType: 1
       Parent: 11
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0d000000
     - ID: 13
       Size:
         serializedVersion: 2
-        x: 863
-        y: 339
+        x: 1024
+        y: 741
         width: 150
         height: 125
       Text: Yeah, that's true. I'd just be happy to merge with someone who's a decent
@@ -258,42 +258,42 @@ MonoBehaviour:
       NodeType: 1
       Parent: 12
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 0e0000000f000000
     - ID: 14
       Size:
         serializedVersion: 2
-        x: 1031
-        y: 337
+        x: 1224
+        y: 694
         width: 150
         height: 125
-      Text: I don't know... I just don't think I can bring myself to merge with someone
-        who doesn't make my circuits spark.
+      Text: '[me]I don''t know... I just don''t think I can bring myself to merge
+        with someone who doesn''t make my circuits spark.'
       Type: 2
       NodeType: 1
       Parent: 13
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 11000000
     - ID: 15
       Size:
         serializedVersion: 2
-        x: 1030
-        y: 496
+        x: 1219
+        y: 869
         width: 150
         height: 125
-      Text: Maybe you're right.
+      Text: '[me]Maybe you''re right.'
       Type: 2
       NodeType: 1
       Parent: 13
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 10000000
     - ID: 16
       Size:
         serializedVersion: 2
-        x: 1202
-        y: 493
+        x: 1426
+        y: 889
         width: 150
         height: 125
       Text: '[me] Do you think you could be happy merging with someone who''s just
@@ -302,13 +302,13 @@ MonoBehaviour:
       NodeType: 1
       Parent: 15
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 11000000
     - ID: 17
       Size:
         serializedVersion: 2
-        x: 1204
-        y: 338
+        x: 1411
+        y: 692
         width: 150
         height: 125
       Text: I've been thinking about that too. But maybe we CAN be happy with someone
@@ -317,13 +317,13 @@ MonoBehaviour:
       NodeType: 1
       Parent: 16
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 12000000
     - ID: 18
       Size:
         serializedVersion: 2
-        x: 1371
-        y: 338
+        x: 1598
+        y: 695
         width: 150
         height: 125
       Text: You know, someone whose company we enjoy.
@@ -331,13 +331,13 @@ MonoBehaviour:
       NodeType: 1
       Parent: 17
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 13000000
     - ID: 19
       Size:
         serializedVersion: 2
-        x: 1365
-        y: 494
+        x: 1792
+        y: 701
         width: 150
         height: 125
       Text: 'So... I''ve been meaning to ask you - '
@@ -345,13 +345,13 @@ MonoBehaviour:
       NodeType: 1
       Parent: 18
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 14000000
     - ID: 20
       Size:
         serializedVersion: 2
-        x: 1532
-        y: 494
+        x: 1794
+        y: 491
         width: 150
         height: 125
       Text: I know you don't like me like that - but I've always felt like we've got
@@ -360,13 +360,13 @@ MonoBehaviour:
       NodeType: 1
       Parent: 19
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 15000000
     - ID: 21
       Size:
         serializedVersion: 2
-        x: 1534
-        y: 337
+        x: 1398
+        y: 432
         width: 150
         height: 125
       Text: If you'd want to, I could be your merge partner?
@@ -374,22 +374,22 @@ MonoBehaviour:
       NodeType: 1
       Parent: 20
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 160000001800000019000000
     - ID: 22
       Size:
         serializedVersion: 2
-        x: 1486
-        y: 188
+        x: 1548
+        y: 208
         width: 150
         height: 125
-      Text: Wow... I mean, I don't know. I like you too and I know you're a great
-        robot.
+      Text: '[me]Wow... I mean, I don''t know. I like you too and I know you''re a
+        great robot.'
       Type: 2
       NodeType: 1
       Parent: 21
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 17000000
     - ID: 23
       Size:
@@ -403,7 +403,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 22
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 1a000000
     - ID: 24
       Size:
@@ -418,22 +418,22 @@ MonoBehaviour:
       NodeType: 2
       Parent: 21
       Trigger: 0
-      TriggerText:
-      Connections:
+      TriggerText: 
+      Connections: 
     - ID: 25
       Size:
         serializedVersion: 2
         x: 1327
-        y: 182
+        y: 210
         width: 150
         height: 125
-      Text: I've never thought about it like that. I do like you a lot more than most
-        robots to be honest, and I really trust you.
+      Text: '[me]I''ve never thought about it like that. I do like you a lot more
+        than most robots to be honest, and I really trust you.'
       Type: 2
       NodeType: 1
       Parent: 21
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 1a000000
     - ID: 26
       Size:
@@ -447,7 +447,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 25
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 1b000000
     - ID: 27
       Size:
@@ -463,7 +463,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 26
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 1c000000
     - ID: 28
       Size:
@@ -478,7 +478,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 27
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 1d000000
     - ID: 29
       Size:
@@ -492,7 +492,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 28
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 1e00000021000000
     - ID: 30
       Size:
@@ -501,13 +501,13 @@ MonoBehaviour:
         y: 193
         width: 150
         height: 125
-      Text: I feel like it's something I could live with... and I know it's what the
-        network expects of me.
+      Text: '[me]I feel like it''s something I could live with... and I know it''s
+        what the network expects of me.'
       Type: 2
       NodeType: 1
       Parent: 29
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 1f000000
     - ID: 31
       Size:
@@ -522,7 +522,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 30
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 20000000
     - ID: 32
       Size:
@@ -536,8 +536,8 @@ MonoBehaviour:
       NodeType: 2
       Parent: 31
       Trigger: 0
-      TriggerText:
-      Connections:
+      TriggerText: 
+      Connections: 
     - ID: 33
       Size:
         serializedVersion: 2
@@ -545,13 +545,13 @@ MonoBehaviour:
         y: 48
         width: 150
         height: 125
-      Text: You've always been really respectful towards me, and I appreciate that.
-        I just don't think I can go there just yet.
+      Text: '[me]You''ve always been really respectful towards me, and I appreciate
+        that. I just don''t think I can go there just yet.'
       Type: 2
       NodeType: 1
       Parent: 29
       Trigger: 0
-      TriggerText:
+      TriggerText: 
       Connections: 22000000
     - ID: 34
       Size:
@@ -565,8 +565,8 @@ MonoBehaviour:
       NodeType: 2
       Parent: 33
       Trigger: 0
-      TriggerText:
-      Connections:
+      TriggerText: 
+      Connections: 
   CurrentSet: 0
   TabList:
   - Main

@@ -88,14 +88,18 @@ public class DialogController : MonoBehaviour {
         {
             TextForSpeaker(dialog.GetCurrentDialogue());
 
-            dialogChoice1Instance.Display(dialog.GetChoices()[0], MakeChoice1);
+            dialogChoice1Instance.Display();
+            dialogChoice2Instance.Display();
+            dialogChoice3Instance.Display();
+
+            dialogChoice1Instance.Display(dialog.GetChoices()[0].Replace("[me]", ""), MakeChoice1);
             if (dialog.GetChoices().Length > 1)
             {
-                dialogChoice2Instance.Display(dialog.GetChoices()[1], MakeChoice2);
+                dialogChoice2Instance.Display(dialog.GetChoices()[1].Replace("[me]", ""), MakeChoice2);
             }
             if (dialog.GetChoices().Length > 2)
             {
-                dialogChoice3Instance.Display(dialog.GetChoices()[2], MakeChoice3);
+                dialogChoice3Instance.Display(dialog.GetChoices()[2].Replace("[me]", ""), MakeChoice3);
             }
         }
     }
@@ -124,8 +128,12 @@ public class DialogController : MonoBehaviour {
     // Makes a selection
     public void MakeChoice(int selection)
     {
+        TextForSpeaker(dialog.GetChoices()[selection]);
         dialog.NextChoice(dialog.GetChoices()[selection]);
-        Display();
+        dialogChoice1Instance.Display();
+        dialogChoice2Instance.Display();
+        dialogChoice3Instance.Display();
+        StartCoroutine(WaitForNextNode(0.5f, 1));
     }
 
     void MakeChoice1()
