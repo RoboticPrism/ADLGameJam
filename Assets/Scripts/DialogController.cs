@@ -8,8 +8,15 @@ public class DialogController : MonoBehaviour {
     [SerializeField]
     Dialogues dialog;
 
+    [Header("Prefab Connections")]
+
     [SerializeField]
     DialogText dialogTextPrefab;
+
+    [SerializeField]
+    TypingText typingTextPrefab;
+
+    [Header("Instance Connections")]
 
     [SerializeField]
     RectTransform chatWindow;
@@ -40,9 +47,12 @@ public class DialogController : MonoBehaviour {
     }
 
     // Wait some time before doing the next node
-    public IEnumerator WaitForNextNode(float time)
+    public IEnumerator WaitForNextNode(float waitTime, float textTime)
     {
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(waitTime);
+        TypingText typingTextInstance = Instantiate(typingTextPrefab, chatWindow);
+        yield return new WaitForSeconds(textTime);
+        Destroy(typingTextInstance.gameObject);
         NextNode();
     }
 
@@ -54,13 +64,20 @@ public class DialogController : MonoBehaviour {
             dialogChoice1Instance.Display();
             dialogChoice2Instance.Display();
             dialogChoice3Instance.Display();
-            DialogText dt = Instantiate(dialogTextPrefab, chatWindow);
 
+            DialogText dt = Instantiate(dialogTextPrefab, chatWindow);
             dt.Display(dialog.GetCurrentDialogue());
-            StartCoroutine(WaitForNextNode(1));
+
+            if (!dialog.End())
+            {
+                StartCoroutine(WaitForNextNode(0.5f, 1));
+            }
         }
         else
         {
+            DialogText dt = Instantiate(dialogTextPrefab, chatWindow);
+            dt.Display(dialog.GetCurrentDialogue());
+
             dialogChoice1Instance.Display(dialog.GetChoices()[0], MakeChoice1);
             if (dialog.GetChoices().Length > 1)
             {

@@ -143,6 +143,8 @@ MonoBehaviour:
   dialog: {fileID: 1885955152}
   dialogTextPrefab: {fileID: 114093714602072658, guid: 967b890cdfdde054f9482e99cc8d24be,
     type: 2}
+  typingTextPrefab: {fileID: 114672128008047382, guid: aeee6af2784d48040b7e6885fc98bdc7,
+    type: 2}
   chatWindow: {fileID: 860266470}
   dialogChoice1Instance: {fileID: 21762709}
   dialogChoice2Instance: {fileID: 1553644890}
@@ -678,7 +680,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &985630105
 MonoBehaviour:
