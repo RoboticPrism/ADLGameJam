@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: d5eafb6db9d690a45aa066a30249f795
+guid: 73044cecf622e0c4f8e4f08f2660b6dd
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Red OS Logo
-    21300002: Blue OS Logo
-    21300004: Red Contact Panel
-    21300006: Blue Contact Panel
-    21300008: Red Dialogue Box
-    21300010: Blue Dialogue Box
-    21300012: Red Typing
-    21300014: Blue Typing
-    21300016: Text Choice
-    21300018: Text Choice Grayed out
-    21300020: Scroll Space
-    21300022: Scroller icon
+    21300000: UI_DialogueBox_Blue_0
+    21300002: UI_DialogueBox_Blue_1
+    21300004: UI_DialogueBox_Blue_2
+    21300006: UI_DialogueBox_Blue_3
+    21300008: UI_DialogueBox_Blue_4
+    21300010: UI_DialogueBox_Blue_5
+    21300012: UI_DialogueBox_Blue_6
+    21300014: UI_DialogueBox_Blue_7
+    21300016: UI_DialogueBox_Blue_8
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -50,13 +47,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 115, y: 100, z: 50, w: 45}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -94,13 +91,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Red Contact Panel
+      name: UI_DialogueBox_Blue_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1664
-        width: 704
-        height: 192
+        x: 45
+        y: 16
+        width: 119
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b36e481dd4958e418d2746d1a20325d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialogueBox_Blue_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 233
+        width: 58
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -108,19 +125,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffbdb13f71be3044fbbc36a207168c0e
+      spriteID: 4f73875d3a1c4f842af3a278839bdc78
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Contact Panel
+      name: UI_DialogueBox_Blue_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1408
-        width: 704
-        height: 192
+        x: 500
+        y: 232
+        width: 58
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,19 +145,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1347284bca301b4fb153a96452cb8a3
+      spriteID: 0725d17a45e77cd42aa476dd783f69ca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Red Typing
+      name: UI_DialogueBox_Blue_3
       rect:
         serializedVersion: 2
-        x: 896
-        y: 1100
-        width: 193
-        height: 181
+        x: 46
+        y: 111
+        width: 57
+        height: 121
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,19 +165,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 355c557f65e02324198b9a98c079a1a8
+      spriteID: 1689f52c0b4eb8a42a9406895ce51ec7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Typing
+      name: UI_DialogueBox_Blue_4
       rect:
         serializedVersion: 2
-        x: 892
-        y: 834
-        width: 200
-        height: 192
+        x: 105
+        y: 232
+        width: 395
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,79 +185,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ced3249b0e04e8e428b3391adbf697b1
+      spriteID: bd983759f9f41fb459c7782ff3541460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Text Choice
+      name: UI_DialogueBox_Blue_5
       rect:
         serializedVersion: 2
-        x: 1279
-        y: 1023
-        width: 706
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76313a17d00d10a4cb6e128d2926fa7a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Text Choice Grayed out
-      rect:
-        serializedVersion: 2
-        x: 1279
-        y: 895
-        width: 706
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2317fabc97afe6d4cb0ad3b86e66690f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scroll Space
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 1280
-        width: 64
-        height: 704
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 097b601f24bc2e440beb2fa0eeb1bd89
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scroller icon
-      rect:
-        serializedVersion: 2
-        x: 1794
-        y: 1285
+        x: 500
+        y: 109
         width: 59
-        height: 111
+        height: 121
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,7 +205,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b102589b1cc567443b4c878ecdea623b
+      spriteID: 91b3151daec39ec4aae2bfad24015814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialogueBox_Blue_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 76
+        width: 119
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35253e4fda307841b3196ee1af6dd17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialogueBox_Blue_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 75
+        width: 276
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bb4191ba693ba439bf632830d4d858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialogueBox_Blue_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 110
+        width: 394
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749693944b4897945918faf0f87ebdb7
       vertices: []
       indices: 
       edges: []
@@ -256,7 +273,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 79bd4c2c64caa694ca4907b74974f046
+    spriteID: 2bfb7c038fee92e45a2ec0d6edafb876
     vertices: []
     indices: 
     edges: []
