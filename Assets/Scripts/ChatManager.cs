@@ -6,17 +6,15 @@ using UnityEngine.UI;
 public class ChatManager : MonoBehaviour {
 
 	[SerializeField]
-	private List<GameObject> chats;
+	private List<CharacterDisplay> chats;
 
-	public void openChat(GameObject thisChat) {
-		foreach (GameObject chat in chats) {
-			if (chat == (thisChat)) {
-				thisChat.SetActive (true);
+	public void openChat(CharacterDisplay characterDisplay) {
+		foreach (CharacterDisplay chat in chats) {
+			if (chat == (characterDisplay)) {
+                chat.SetActive();
 			} else {
-				chat.SetActive (false);
-			}
+                chat.SetInactive();
+            }
 		}
 	}
-
-
 }
