@@ -11,10 +11,14 @@ public class DialogController : MonoBehaviour {
     [Header("Prefab Connections")]
 
     [SerializeField]
-    DialogText dialogTextPrefab;
+    DialogText myDialogTextPrefab;
+    [SerializeField]
+    DialogText otherDialogTextPrefab;
 
     [SerializeField]
-    TypingText typingTextPrefab;
+    TypingText myTypingTextPrefab;
+    [SerializeField]
+    TypingText otherTypingTextPrefab;
 
     [Header("Instance Connections")]
 
@@ -49,8 +53,16 @@ public class DialogController : MonoBehaviour {
     // Wait some time before doing the next node
     public IEnumerator WaitForNextNode(float waitTime, float textTime)
     {
+        TypingText typingTextInstance;
         yield return new WaitForSeconds(waitTime);
-        TypingText typingTextInstance = Instantiate(typingTextPrefab, chatWindow);
+        if (IsSpeakerMe(dialog.GetCurrentDialogue()))
+        {
+            typingTextInstance = Instantiate(myTypingTextPrefab, chatWindow);
+        } 
+        else
+        {
+            typingTextInstance = Instantiate(otherTypingTextPrefab, chatWindow);
+        }
         yield return new WaitForSeconds(textTime);
         Destroy(typingTextInstance.gameObject);
         NextNode();
@@ -65,8 +77,7 @@ public class DialogController : MonoBehaviour {
             dialogChoice2Instance.Display();
             dialogChoice3Instance.Display();
 
-            DialogText dt = Instantiate(dialogTextPrefab, chatWindow);
-            dt.Display(dialog.GetCurrentDialogue());
+            TextForSpeaker(dialog.GetCurrentDialogue());
 
             if (!dialog.End())
             {
@@ -75,8 +86,7 @@ public class DialogController : MonoBehaviour {
         }
         else
         {
-            DialogText dt = Instantiate(dialogTextPrefab, chatWindow);
-            dt.Display(dialog.GetCurrentDialogue());
+            TextForSpeaker(dialog.GetCurrentDialogue());
 
             dialogChoice1Instance.Display(dialog.GetChoices()[0], MakeChoice1);
             if (dialog.GetChoices().Length > 1)
@@ -90,10 +100,31 @@ public class DialogController : MonoBehaviour {
         }
     }
 
+    // Determines whos speaking and makes a textbox for them
+    public void TextForSpeaker(string text)
+    {
+        DialogText dt;
+        if (IsSpeakerMe(text))
+        {
+            dt = Instantiate(myDialogTextPrefab, chatWindow);
+        }
+        else
+        {
+            dt = Instantiate(otherDialogTextPrefab, chatWindow);
+        }
+        text = text.Replace("[me]", "");
+        dt.Display(text);
+    }
+
+    public bool IsSpeakerMe(string text)
+    {
+        return text.Contains("[me]");
+    }
+
     // Makes a selection
     public void MakeChoice(int selection)
     {
-        dialog.NextChoice(dialog.GetChoices()[selection]);
+        TextForSpeaker(dialog.GetCurrentDialogue());
         Display();
     }
 
