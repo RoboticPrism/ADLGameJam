@@ -49,8 +49,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b10fe5d6867c1b5449b4bf163fcd72ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   Set:
   - CurrentId: 19
     NewWindowOpen: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
       NodeType: 0
       Parent: -1
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 0100000002000000
     - ID: 1
       Size:
@@ -82,7 +82,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 0
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 03000000
     - ID: 2
       Size:
@@ -98,7 +98,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 0
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 03000000
     - ID: 3
       Size:
@@ -114,7 +114,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 1
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 0400000005000000
     - ID: 4
       Size:
@@ -128,7 +128,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 3
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 06000000
     - ID: 5
       Size:
@@ -142,7 +142,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 3
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 06000000
     - ID: 6
       Size:
@@ -156,7 +156,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 5
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 0700000008000000
     - ID: 7
       Size:
@@ -171,7 +171,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 6
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 09000000
     - ID: 8
       Size:
@@ -187,7 +187,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 6
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 09000000
     - ID: 9
       Size:
@@ -201,7 +201,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 7
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 0a0000000b000000
     - ID: 10
       Size:
@@ -215,7 +215,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 9
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 0c000000
     - ID: 11
       Size:
@@ -229,7 +229,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 9
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 0c000000
     - ID: 12
       Size:
@@ -243,7 +243,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 11
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 0d0000000e000000
     - ID: 13
       Size:
@@ -257,7 +257,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 12
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 0f000000
     - ID: 14
       Size:
@@ -271,7 +271,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 12
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 0f000000
     - ID: 15
       Size:
@@ -286,7 +286,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 14
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 1000000011000000
     - ID: 16
       Size:
@@ -300,7 +300,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 15
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 12000000
     - ID: 17
       Size:
@@ -314,7 +314,7 @@ MonoBehaviour:
       NodeType: 1
       Parent: 15
       Trigger: 0
-      TriggerText: 
+      TriggerText:
       Connections: 12000000
     - ID: 18
       Size:
@@ -330,8 +330,8 @@ MonoBehaviour:
       NodeType: 1
       Parent: 17
       Trigger: 0
-      TriggerText: 
-      Connections: 
+      TriggerText:
+      Connections:
   CurrentSet: 0
   TabList:
-  - AsexualRobot
+  - Main

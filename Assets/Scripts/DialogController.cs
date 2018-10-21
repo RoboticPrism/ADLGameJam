@@ -34,7 +34,7 @@ public class DialogController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        dialog.SetTree("Test1");
+        dialog.SetTree("Main");
         Display();
 	}
 	
