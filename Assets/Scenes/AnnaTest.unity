@@ -155,6 +155,169 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 502168fefc90e954ca719f44fcfdc8c2, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &288862242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 288862243}
+  - component: {fileID: 288862244}
+  m_Layer: 0
+  m_Name: Dialog_TransRobot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &288862243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 288862242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1255136444}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &288862244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 288862242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10fe5d6867c1b5449b4bf163fcd72ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Set:
+  - CurrentId: 9
+    NewWindowOpen: 0
+    FirstWindow: 0
+    Windows:
+    - ID: 0
+      Size:
+        serializedVersion: 2
+        x: 326
+        y: 53
+        width: 150
+        height: 125
+      Text: Hey there! How's it going! It's great to meet you!
+      Type: 1
+      NodeType: 0
+      Parent: -1
+      Trigger: 0
+      TriggerText: 
+      Connections: 010000000200000003000000
+    - ID: 1
+      Size:
+        serializedVersion: 2
+        x: 128
+        y: 201
+        width: 150
+        height: 125
+      Text: I'm hanging in there. I'm still getting a feel for this. I'm still pretty
+        new to these things.
+      Type: 2
+      NodeType: 1
+      Parent: 0
+      Trigger: 0
+      TriggerText: 
+      Connections: 06000000
+    - ID: 2
+      Size:
+        serializedVersion: 2
+        x: 324
+        y: 204
+        width: 150
+        height: 125
+      Text: Hi! I'm doing ok! How are you?
+      Type: 2
+      NodeType: 1
+      Parent: 0
+      Trigger: 0
+      TriggerText: 
+      Connections: 04000000
+    - ID: 3
+      Size:
+        serializedVersion: 2
+        x: 515
+        y: 203
+        width: 150
+        height: 125
+      Text: It's nice to get a friendly message! I'm doing alright! How about yourself?
+      Type: 2
+      NodeType: 1
+      Parent: 0
+      Trigger: 0
+      TriggerText: 
+      Connections: 04000000
+    - ID: 4
+      Size:
+        serializedVersion: 2
+        x: 422
+        y: 364
+        width: 150
+        height: 125
+      Text: That's great! I'm doing pretty alright. I saw your profile and just had
+        to message you. You looked like you'd be real fun to talk to.
+      Type: 1
+      NodeType: 1
+      Parent: 2
+      Trigger: 0
+      TriggerText: 
+      Connections: 0700000008000000
+    - ID: 6
+      Size:
+        serializedVersion: 2
+        x: 121
+        y: 357
+        width: 150
+        height: 125
+      Text: It's great to see you here! Putting yourself out there is admirable all
+        on its own. I'm doing alright too, better now that you're here!
+      Type: 1
+      NodeType: 1
+      Parent: 1
+      Trigger: 0
+      TriggerText: 
+      Connections: 
+    - ID: 7
+      Size:
+        serializedVersion: 2
+        x: 427
+        y: 505
+        width: 150
+        height: 125
+      Text: Aww, that's so sweet. You seem like a nice person to talk to as well.
+      Type: 2
+      NodeType: 2
+      Parent: 4
+      Trigger: 0
+      TriggerText: 
+      Connections: 
+    - ID: 8
+      Size:
+        serializedVersion: 2
+        x: 610
+        y: 502
+        width: 150
+        height: 125
+      Text: That's nice to hear. I've had mixed luck so far.
+      Type: 2
+      NodeType: 2
+      Parent: 4
+      Trigger: 0
+      TriggerText: 
+      Connections: 
+  CurrentSet: 0
+  TabList:
+  - TransRobot
 --- !u!1001 &291098954
 Prefab:
   m_ObjectHideFlags: 0
@@ -281,519 +444,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29ef840edc54a4b419f6e68c881f11b9, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1255136442
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1255136444}
-  - component: {fileID: 1255136443}
-  m_Layer: 0
-  m_Name: Dialog_GayGhostingRobot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1255136443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1255136442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b10fe5d6867c1b5449b4bf163fcd72ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Set:
-  - CurrentId: 34
-    NewWindowOpen: 0
-    FirstWindow: 0
-    Windows:
-    - ID: 0
-      Size:
-        serializedVersion: 2
-        x: 460
-        y: 19
-        width: 150
-        height: 125
-      Text: Hey
-      Type: 1
-      NodeType: 0
-      Parent: -1
-      Trigger: 0
-      TriggerText: 
-      Connections: 010000000200000003000000
-    - ID: 1
-      Size:
-        serializedVersion: 2
-        x: 733
-        y: 169
-        width: 150
-        height: 125
-      Text: Hi?
-      Type: 2
-      NodeType: 1
-      Parent: 0
-      Trigger: 0
-      TriggerText: 
-      Connections: 04000000
-    - ID: 2
-      Size:
-        serializedVersion: 2
-        x: 214
-        y: 189
-        width: 150
-        height: 125
-      Text: Hi there! How are you?
-      Type: 2
-      NodeType: 1
-      Parent: 0
-      Trigger: 0
-      TriggerText: 
-      Connections: 04000000
-    - ID: 3
-      Size:
-        serializedVersion: 2
-        x: 448
-        y: 185
-        width: 150
-        height: 125
-      Text: Hey yourself
-      Type: 2
-      NodeType: 1
-      Parent: 0
-      Trigger: 0
-      TriggerText: 
-      Connections: 04000000
-    - ID: 4
-      Size:
-        serializedVersion: 2
-        x: 450
-        y: 352
-        width: 150
-        height: 125
-      Text: I'm fine. Thanks for asking. Are you doing alright?
-      Type: 1
-      NodeType: 1
-      Parent: 1
-      Trigger: 0
-      TriggerText: 
-      Connections: 050000000600000007000000
-    - ID: 5
-      Size:
-        serializedVersion: 2
-        x: 181
-        y: 514
-        width: 150
-        height: 125
-      Text: I'm hanging in there.
-      Type: 2
-      NodeType: 1
-      Parent: 4
-      Trigger: 0
-      TriggerText: 
-      Connections: 08000000
-    - ID: 6
-      Size:
-        serializedVersion: 2
-        x: 487
-        y: 497
-        width: 150
-        height: 125
-      Text: I'm ok.
-      Type: 2
-      NodeType: 1
-      Parent: 4
-      Trigger: 0
-      TriggerText: 
-      Connections: 08000000
-    - ID: 7
-      Size:
-        serializedVersion: 2
-        x: 740
-        y: 498
-        width: 150
-        height: 125
-      Text: No, not really. I'm pretty stressed about this whole finding a match thing.
-      Type: 2
-      NodeType: 1
-      Parent: 4
-      Trigger: 0
-      TriggerText: 
-      Connections: 0a000000
-    - ID: 8
-      Size:
-        serializedVersion: 2
-        x: 313
-        y: 683
-        width: 150
-        height: 125
-      Text: That's good. I don't really know I feel about this whole thing. It's not
-        my scene, but I throught I'd at least give it a try, you know?
-      Type: 1
-      NodeType: 1
-      Parent: 5
-      Trigger: 0
-      TriggerText: 
-      Connections: 0b0000000c0000000d000000
-    - ID: 10
-      Size:
-        serializedVersion: 2
-        x: 751
-        y: 680
-        width: 150
-        height: 125
-      Text: I'm not in love with the concept wither. It feels a little weird to try
-        to market myselflike this, like I'm some kind of product instead of... me.
-      Type: 1
-      NodeType: 1
-      Parent: 7
-      Trigger: 0
-      TriggerText: 
-      Connections: 1000000011000000
-    - ID: 11
-      Size:
-        serializedVersion: 2
-        x: 305
-        y: 843
-        width: 150
-        height: 125
-      Text: You're trying and that's what counts!
-      Type: 2
-      NodeType: 1
-      Parent: 8
-      Trigger: 0
-      TriggerText: 
-      Connections: 0e000000
-    - ID: 12
-      Size:
-        serializedVersion: 2
-        x: 63
-        y: 853
-        width: 150
-        height: 125
-      Text: I get that. It can be intimidating.
-      Type: 2
-      NodeType: 1
-      Parent: 8
-      Trigger: 0
-      TriggerText: 
-      Connections: 0e000000
-    - ID: 13
-      Size:
-        serializedVersion: 2
-        x: 539
-        y: 848
-        width: 150
-        height: 125
-      Text: Not really. I think this is fine. It's part of life after all.
-      Type: 2
-      NodeType: 1
-      Parent: 8
-      Trigger: 0
-      TriggerText: 
-      Connections: 0f000000
-    - ID: 14
-      Size:
-        serializedVersion: 2
-        x: 454
-        y: 1045.9817
-        width: 150
-        height: 125
-      Text: So what are you looking for then?
-      Type: 1
-      NodeType: 1
-      Parent: 12
-      Trigger: 0
-      TriggerText: 
-      Connections: 150000001600000017000000
-    - ID: 15
-      Size:
-        serializedVersion: 2
-        x: 736
-        y: 1041.9817
-        width: 150
-        height: 125
-      Text: '[The user has disconnected]'
-      Type: 1
-      NodeType: 1
-      Parent: 13
-      Trigger: 0
-      TriggerText: 
-      Connections: 120000001300000014000000
-    - ID: 16
-      Size:
-        serializedVersion: 2
-        x: 710
-        y: 839.9817
-        width: 150
-        height: 125
-      Text: It's nice to know someone else feels that way too.
-      Type: 2
-      NodeType: 1
-      Parent: 10
-      Trigger: 0
-      TriggerText: 
-      Connections: 0e000000
-    - ID: 17
-      Size:
-        serializedVersion: 2
-        x: 893
-        y: 841.9817
-        width: 150
-        height: 125
-      Text: Maybe this kind of thing isn't for either of us.
-      Type: 2
-      NodeType: 1
-      Parent: 10
-      Trigger: 0
-      TriggerText: 
-      Connections: 0f000000
-    - ID: 18
-      Size:
-        serializedVersion: 2
-        x: 686
-        y: 1198.98
-        width: 150
-        height: 125
-      Text: Hello?
-      Type: 2
-      NodeType: 2
-      Parent: 15
-      Trigger: 0
-      TriggerText: 
-      Connections: 
-    - ID: 19
-      Size:
-        serializedVersion: 2
-        x: 851
-        y: 1198.98
-        width: 150
-        height: 125
-      Text: Hello?
-      Type: 2
-      NodeType: 2
-      Parent: 15
-      Trigger: 0
-      TriggerText: 
-      Connections: 
-    - ID: 20
-      Size:
-        serializedVersion: 2
-        x: 1024
-        y: 1173.98
-        width: 150
-        height: 125
-      Text: Hello?
-      Type: 2
-      NodeType: 2
-      Parent: 15
-      Trigger: 0
-      TriggerText: 
-      Connections: 
-    - ID: 21
-      Size:
-        serializedVersion: 2
-        x: 82
-        y: 1218.98
-        width: 150
-        height: 125
-      Text: Someone that makes me happy.
-      Type: 2
-      NodeType: 1
-      Parent: 14
-      Trigger: 0
-      TriggerText: 
-      Connections: 18000000
-    - ID: 22
-      Size:
-        serializedVersion: 2
-        x: 306
-        y: 1221.98
-        width: 150
-        height: 125
-      Text: I don't know.
-      Type: 2
-      NodeType: 1
-      Parent: 14
-      Trigger: 0
-      TriggerText: 
-      Connections: 19000000
-    - ID: 23
-      Size:
-        serializedVersion: 2
-        x: 478
-        y: 1221.98
-        width: 150
-        height: 125
-      Text: The ideal match.
-      Type: 2
-      NodeType: 1
-      Parent: 14
-      Trigger: 0
-      TriggerText: 
-      Connections: 19000000
-    - ID: 24
-      Size:
-        serializedVersion: 2
-        x: 102
-        y: 1397.98
-        width: 150
-        height: 125
-      Text: Same. It's just hard to find someone else comfortable with merging with
-        the same OS.
-      Type: 1
-      NodeType: 1
-      Parent: 21
-      Trigger: 0
-      TriggerText: 
-      Connections: 1a0000001b0000001c000000
-    - ID: 25
-      Size:
-        serializedVersion: 2
-        x: 449
-        y: 1385.98
-        width: 150
-        height: 125
-      Text: '[The user has disconnected]'
-      Type: 1
-      NodeType: 1
-      Parent: 22
-      Trigger: 0
-      TriggerText: 
-      Connections: 
-    - ID: 26
-      Size:
-        serializedVersion: 2
-        x: 42
-        y: 1564.4788
-        width: 150
-        height: 125
-      Text: I'm not really that comfortable with same OS merging.
-      Type: 2
-      NodeType: 1
-      Parent: 24
-      Trigger: 0
-      TriggerText: 
-      Connections: 1d000000
-    - ID: 27
-      Size:
-        serializedVersion: 2
-        x: 270
-        y: 1562.4788
-        width: 150
-        height: 125
-      Text: I feel that way too! It's kind of scary that we're more likely to corrupt.
-      Type: 2
-      NodeType: 1
-      Parent: 24
-      Trigger: 0
-      TriggerText: 
-      Connections: 1e000000
-    - ID: 28
-      Size:
-        serializedVersion: 2
-        x: 506
-        y: 1546.4788
-        width: 150
-        height: 125
-      Text: I'm definitely curious about merging with the same OS. Are you?
-      Type: 2
-      NodeType: 1
-      Parent: 24
-      Trigger: 0
-      TriggerText: 
-      Connections: 1e000000
-    - ID: 29
-      Size:
-        serializedVersion: 2
-        x: 70
-        y: 1743
-        width: 150
-        height: 125
-      Text: Oh.
-      Type: 0
-      NodeType: 2
-      Parent: 26
-      Trigger: 0
-      TriggerText: 
-      Connections: 
-    - ID: 30
-      Size:
-        serializedVersion: 2
-        x: 347
-        y: 1738
-        width: 150
-        height: 125
-      Text: Maybe you're not so bad.
-      Type: 1
-      NodeType: 1
-      Parent: 27
-      Trigger: 0
-      TriggerText: 
-      Connections: 1f0000002000000021000000
-    - ID: 31
-      Size:
-        serializedVersion: 2
-        x: 562
-        y: 1873
-        width: 150
-        height: 125
-      Text: Maybe you're not so bad yourself.
-      Type: 2
-      NodeType: 2
-      Parent: 30
-      Trigger: 0
-      TriggerText: 
-      Connections: 
-    - ID: 32
-      Size:
-        serializedVersion: 2
-        x: 393
-        y: 1880
-        width: 150
-        height: 125
-      Text: I try.
-      Type: 2
-      NodeType: 2
-      Parent: 30
-      Trigger: 0
-      TriggerText: 
-      Connections: 
-    - ID: 33
-      Size:
-        serializedVersion: 2
-        x: 219
-        y: 1885
-        width: 150
-        height: 125
-      Text: Thanks?
-      Type: 2
-      NodeType: 2
-      Parent: 30
-      Trigger: 0
-      TriggerText: 
-      Connections: 
-  CurrentSet: 0
-  TabList:
-  - GayGhostingRobot
---- !u!4 &1255136444
+--- !u!4 &1255136444 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1255136442}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_CorrespondingSourceObject: {fileID: 4630532607438762, guid: 5e2b8fed0996162499f808deb763cf81,
+    type: 2}
+  m_PrefabInternal: {fileID: 1637203377}
 --- !u!1 &1615270779
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +526,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1637203377
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4630532607438762, guid: 5e2b8fed0996162499f808deb763cf81, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630532607438762, guid: 5e2b8fed0996162499f808deb763cf81, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630532607438762, guid: 5e2b8fed0996162499f808deb763cf81, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630532607438762, guid: 5e2b8fed0996162499f808deb763cf81, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630532607438762, guid: 5e2b8fed0996162499f808deb763cf81, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630532607438762, guid: 5e2b8fed0996162499f808deb763cf81, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630532607438762, guid: 5e2b8fed0996162499f808deb763cf81, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630532607438762, guid: 5e2b8fed0996162499f808deb763cf81, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e2b8fed0996162499f808deb763cf81, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &1643173855
 Prefab:
   m_ObjectHideFlags: 0
